@@ -1,0 +1,227 @@
+ /*<!-- SlidesJS Optional: If you'd like to use this design -->*/
+
+.container{
+	position: relative;
+	top: 0px;
+	left: 5px;
+
+	width: 50%;
+	margin: 0 auto;
+	margin-bottom:50px;
+}
+
+.slidesContainer{ /*Slider Piragua Express */
+	width: 516px;
+	height: 347px;
+}
+.slidesContainerIndex{/*Slider Piragua Principal*/
+width:792px;
+height:350px;
+}
+.container div img{
+	margin-bottom:20px;
+}
+    #slides {
+
+ margin: 0 auto;
+     left: 30em;
+  	max-height:500px;
+     display: none;
+      margin-top:10px;
+      margin-bottom:50px;
+
+    }
+		#slides1 {
+
+ margin: 0 auto;
+		 left: 30em;
+		max-height:500px;
+		 display: none;
+			margin-top:10px;
+			margin-bottom:50px;
+
+		}
+
+    .slidesjs-navigation {
+      margin-top:3px;
+      position:relative;
+      top:-40px;
+      z-index:1000;
+    }
+
+    .slidesjs-previous {
+      margin-right: 5px;
+      float: left;
+    }
+
+    .slidesjs-next {
+      margin-right: 5px;
+      float: left;
+    }
+
+    .slidesjs-pagination {
+      margin: 6px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      top:-40px;
+      position:relative;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url("../imagenes/sliders/pagination.png");
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+      z-index:1000;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    a:link,
+    a:visited {
+      color: #333
+    }
+
+    a:hover,
+    a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+ /*
+  <!-- End SlidesJS Optional-->
+
+  <!-- SlidesJS Required: These styles are required if you'd like a responsive slideshow -->
+
+  */
+
+    /* For tablets & smart phones */
+    @media (max-width: 767px) {
+      body {
+        /*padding-left: 20px;
+        padding-right: 20px;*/
+      }
+      .container, .galeria {
+        width: 0 auto
+
+      }
+      .contenido article {
+      	width:100%;
+      }
+      .contenidos article  {
+      	width:100%;
+      }
+			.slidesContainer, .slidesContainerIndex{ /*Slider Piragua Express / Slider Piragua Principal*/
+				width: auto;
+				height: auto;
+			}
+
+      #H_vertical2, .flipbook-viewport{
+      	display:none;
+      }
+
+		.contenidox{
+			display: initial;
+		}
+    }
+
+    /* For smartphones */
+    @media (max-width: 480px) {
+      .container, .galeria {
+        width: auto;
+
+      }
+			.slidesContainer, .slidesContainerIndex{ /*Slider Piragua Express / Slider Piragua Principal*/
+				width: auto;
+				height: auto;
+			}
+
+     /* #vertical, #horizontal{
+      	display:none;
+      }*/
+      #H_vertical{
+      	display:none;
+      }
+      .contenido article, .contenidos article {
+      	width:100%;
+      }
+      #H_vertical2, .contenidox{
+      	display: initial;
+      }
+		.flipbook-viewport{
+			display:none;
+		}
+    }
+
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 1199px) {
+      .container, .galeria {
+        width: 724px
+
+      }
+      .contenido article {
+      	width:70%;
+      }
+      .contenidos article  {
+      	width:100%;
+      }
+      #H_vertical2{
+      	display:none;
+      }
+    }
+
+    /* For larger displays */
+    @media (min-width: 1200px) {
+      .container, .galeria {
+        width: 1170px
+
+      }
+      .contenido article {
+      	width:50%;
+      }
+      .contenidos article  {
+      	width:70%;
+      }
+      #H_vertical2,.contenidox{
+      	display:none;
+      }
+       .contenidos article div #float1,#float2,#float3,#float4{
+	float: left;
+}
+   @media (min-width: 2700px) {
+      .container, .galeria {
+        width: 1170px
+
+      }
+      .contenido article {
+      	width:50%;
+      }
+      .contenidos article  {
+      	width:70%;
+      }
+      #H_vertical2,.contenidox{
+      	display:none;
+      }
+       .contenidos article div #float1,#float2,#float3,#float4{
+	float: left;
+}
+
+    }

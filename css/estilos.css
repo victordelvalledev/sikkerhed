@@ -1,0 +1,161 @@
+
+
+/* --- Contenedores --- */
+body {
+	background-image: url("../imagenes/fondo.png");
+	background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+	font-weight: bold;
+}
+.container {
+	position: relative;
+	top:50px;
+
+}
+.contenedor {
+	border-radius: 0px 0px 25px 25px;
+	background-image: url("../imagenes/fondo-blanco.png");
+	margin: 0 auto ;
+	padding-top: 2%;
+	padding-bottom:2.5%;
+	font-weight: bold;
+}
+.titulo {
+	font-weight: 300;
+	color:#ffffff;/*;27348A;*/
+	background-color:#720F11;
+	text-align: left;
+	border-radius: 25px 25px 0px 0px;
+	padding:15px;
+  opacity: 0.7;
+	font-size: 2em;
+	font-weight: bold;
+}
+.parrafo{
+color:#720F11;
+padding: 15px;
+}
+.clientes {
+	height: 80%;
+  width: 	80%;
+}
+.imgcenter{
+	display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+/* --- Text & align --- */
+a:hover {
+	text-decoration: underline;
+}
+
+.textContacto{
+     color: #720F11;
+		 font-size: 18px;
+		 text-align: center;
+}
+
+.Flexible-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.Flexible-container iframe,
+.Flexible-container object,
+.Flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* --- Footer --- */
+footer {
+	background: #720F11;
+	color: #fff;
+	width: 100%;
+	height:60px;
+	position:relative;
+	top:250px;
+}
+
+footer hr.border {
+	width:100%;
+	height:4px;
+	border:none;
+	border-top: 2px solid #476b6b;
+	background: #fff;
+	border-bottom: 2px solid #476b6b;
+	position:relative;
+	top:7px;
+}
+footer hr.border#fhr2 {
+	width:100%;
+	height:1px;
+	border:none;
+	margin-bottom: -10px;
+	border-top: 2px solid #476b6b;
+  background: #fff;
+	border-bottom: 2px solid #476b6b;
+	margin-left:0%;
+	top: -10px;
+	position:relative;
+}
+footer p{
+	text-align: right;
+	font-size: 14px;
+	background:  #720F11;
+	width:100%;
+	margin: 0 auto;
+	margin-right:15%
+}
+.btn-info {
+   background-color:transparent;
+	 border-color: transparent;
+	 color:#720F11;
+
+}
+.btn-info:hover {
+	background-color:#720F11;
+	opacity: 0.7;
+}
+/* --- Modals --- */
+.modaltitleblue{
+	font-weight: bold;
+	color: #720F11;
+}
+.modalbodytext{
+	font-size: 14px;
+	line-height: 200%;
+
+	text-align: center;
+	background-image: url("../imagenes/fondo-modales.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+
+
+@media screen and (max-width: 800px) {
+body {
+		margin:0;
+		padding:0;
+		position:relative;
+		top:0px;
+
+	}
+footer {
+	position:relative;
+		margin: :0px;
+	}
+
+}

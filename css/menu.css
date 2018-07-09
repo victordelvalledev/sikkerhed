@@ -1,0 +1,162 @@
+
+hr.border {
+	width:75%;
+	border:none;
+	margin-bottom: 5px;
+	border-top: 2px solid #476b6b;
+	/*color:none;*/
+	position:relative;
+}
+hr.bordermenu {
+	border:none;
+	margin-left: 35%;
+	margin-bottom: 5px;
+	border-top: 2px solid #476b6b;
+	color:none;
+}
+/* Backgrouds */
+header nav ul li {
+	top:11px;
+	border-radius: 0px 0px 20px 20px;
+}
+
+header nav ul li:hover {
+	background:#720F11;/*celeste*/
+	text-decoration:none;
+}
+
+/* navbar */
+.navbar-default {
+	background-color: transparent;
+ 	background: transparent;
+  border-color: transparent;
+	margin-right:15%;
+	position:relative;
+}
+
+
+/* Links */
+.navbar-default .navbar-nav > li > a{
+	color: #720F11;
+	display:block;
+	text-decoration: none;
+	padding: 10px;
+  text-align: center;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	background:#720F11;
+	color:#fff;
+	text-decoration:none;
+	border-radius: 0px 0px 20px 20px;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+@media (min-width: 768px) and (max-width: 900px) { /*Maybe its not necessary*/
+	.navbar-default {
+		background-color: transparent;
+	 	background: transparent;
+	  border-color: transparent;
+		margin-right:0%;
+		position:relative;
+	}
+}
+@media (max-width: 768px) {
+	/* Mobile version */
+	.navbar-default .navbar-toggle {
+	    border-color: #720F11;
+	}
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus {
+	    background-color: #DDD;
+			border-color: #DDD;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+	    background-color: #CCC;
+	}
+	.navbar-default { /*Change the color of navbar on mobile*/
+		background-color: rgba(39, 52, 138, 0.3);
+		margin-right:0%;
+	}
+	.navbar-toggle{
+		background-color: #720F11;
+	}
+	.navbar-default .navbar-nav > .active > a,
+	.navbar-default .navbar-nav > .active > a:hover,
+	.navbar-default .navbar-nav > .active > a:focus {
+
+		border-radius: 20px 20px 20px 20px;
+	}
+	header nav ul li {
+		border-radius: 20px 20px 20px 20px;
+	}
+}
+
+/*If children
+header nav ul li:hover .children {
+	display:block;
+}
+
+header nav ul li .children {
+	display: none;
+	position: absolute;
+	width: 150%;
+	z-index:1000;
+	top: 24px;
+}
+
+header nav ul li .children li {
+	display:block;
+	overflow: hidden;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+	border-radius: 5px 5px 5px 5px;
+
+}
+
+header nav ul li .children li a {
+	display: block;
+
+}
+
+header nav ul li .children li a span {
+	float: right;
+	position: relative;
+	top:3px;
+	margin-right:0;
+	margin-left:10px;
+}
+
+header nav ul li .caret {
+	position: relative;
+	top:3px;
+	margin-left:10px;
+	margin-right:0px;
+}
+*/
+/* Caret
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+*/

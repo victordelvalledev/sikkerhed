@@ -1,0 +1,198 @@
+.wrap {
+	width: 90%;
+	max-width: auto;
+	margin: auto;
+}
+
+form {
+	width: 100%;
+	margin: 20px 0;
+	padding: 20px;
+	font-weight: bold;
+	overflow: hidden;
+	box-shadow: 0 0 3px grey;
+	border-top:4px solid #009;
+	color:#009;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form textarea {
+	border: 1px solid   #808080;
+	border-radius: 2px;
+	padding: 16px;
+	width: 100%;
+	display: block;
+	margin-bottom:20px;
+	font-family: 'Myriad', sans-serif;
+	font-size: 1em;
+	color:#141938;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus,
+form textarea:focus{
+	border: 2px solid #009;
+	padding: 15px;
+}
+
+.formulario {
+	background: #DD181C;
+	padding: 30px;
+	margin-bottom: 30px;
+}
+
+.formulario .form-group {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="password"]{
+	padding: 15px;
+	font-family: 'Myriad', sans-serif;
+	font-size: 15px;
+	line-height: 18px;
+	border: none;
+	vertical-align: top;
+}
+
+.formulario select[class="profesion"]{
+	padding: 15px;
+	font-family: 'Myriad', sans-serif;
+	font-size: 15px;
+	line-height: 18px;
+	border: none;
+	vertical-align: top;
+}
+
+.formulario .icono {
+	padding: 15px;
+	text-align: center;
+	width: 48px;
+	max-height: 48px
+	font-size: 18px;
+	line-height: 18px;
+	background: #c8c8c8;
+	display: inline-block;
+	color:#6b6b6b;
+	vertical-align: top;
+}
+
+.formulario .icono.izquierda {
+	margin-right: 4px;
+	-webkit-border-radius: 3px 0 0 3px;
+	-moz-border-radius: 3px 0 0 3px;
+	-ms-border-radius: 3px 0 0 3px;
+	-o-border-radius: 3px 0 0 3px;
+	border-radius: 3px 0 0 3px;
+}
+
+.formulario .icono.izquierda.fa.fa-graduation-cap {
+	margin-right: -1px;
+	-webkit-border-radius: 3px 0 0 3px;
+	-moz-border-radius: 3px 0 0 3px;
+	-ms-border-radius: 3px 0 0 3px;
+	-o-border-radius: 3px 0 0 3px;
+	border-radius: 3px 0 0 3px;
+}
+
+.formulario .usuario,
+.formulario .password,
+.formulario .profesion  {
+	width: calc(100% - 52px);
+	-webkit-border-radius: 0 3px 3px 0;
+	-moz-border-radius: 0 3px 3px 0;
+	-ms-border-radius: 0 3px 3px 0;
+	-o-border-radius: 0 3px 3px 0;
+	border-radius: 0 3px 3px 0;
+}
+
+.formulario .password_btn {
+	width: calc(100% - 105px);
+}
+
+.formulario .error ul {
+	padding: 0 15px;
+	list-style-type:none;
+}
+
+.formulario .error ul li {
+	margin-bottom: 10px;
+}
+
+.formulario .submit-btn {
+	padding: 15px;
+	text-align: center;
+	width: 48px;
+	max-height: 48px
+	font-size: 18px;
+	line-height: 18px;
+	background: #679863;
+	display: inline-block;
+	color:#fff;
+	background: #769766;
+	cursor: pointer;
+
+	-webkit-border-radius: 0 3px 3px 0;
+	-moz-border-radius: 0 3px 3px 0;
+	-ms-border-radius: 0 3px 3px 0;
+	-o-border-radius: 0 3px 3px 0;
+	border-radius: 0 3px 3px 0;
+}
+
+.texto-registrate {
+	text-align: center;
+	color:#000;
+}
+
+.texto-registrate a {
+	display: block;
+	font-size: 18px;
+}
+
+
+form textarea {
+	max-width: 100%;
+	min-width: 100%;
+	max-height: 300px;
+	min-height: 150px;
+}
+
+.alert {
+	padding: 1em;
+	color:#fff;
+	border-radius: 2px;
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+.alert.error {
+	background: #DD181C;
+	border:1px solid #a94442;
+	color: #fff;
+}
+
+.alert.success {
+	background: #4CAF50;
+}
+
+.btn,
+form input[type="submit"]{
+	padding: 15px;
+	background: #009;
+	color:#E1E9FA;
+	font-size: 1em;
+	font-family: 'Myriad', sans-serif;
+	border-radius: 2px;
+	border:none;
+	float: right;
+	cursor: pointer;
+}
+
+form input[type="submit"]:hover{
+	background: #E64A19;
+}
