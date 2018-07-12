@@ -1,7 +1,7 @@
 
 hr.border {
 	width:75%;
-	border:none;
+	/*border:none;*/
 	margin-bottom: 5px;
 	border-top: 2px solid #476b6b;
 	/*color:none;*/
@@ -27,9 +27,9 @@ header nav ul li:hover {
 
 /* navbar */
 .navbar-default {
-	background-color: transparent;
- 	background: transparent;
-  border-color: transparent;
+	background-color: #720f11;
+ /*	background: transparent;
+  border-color: transparent;*/
 	margin-right:15%;
 	position:relative;
 }
@@ -37,7 +37,7 @@ header nav ul li:hover {
 
 /* Links */
 .navbar-default .navbar-nav > li > a{
-	color: #720F11;
+	color: #fff;
 	display:block;
 	text-decoration: none;
 	padding: 10px;
@@ -51,7 +51,7 @@ header nav ul li:hover {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-	background:#720F11;
+	background:#720f11;
 	color:#fff;
 	text-decoration:none;
 	border-radius: 0px 0px 20px 20px;
