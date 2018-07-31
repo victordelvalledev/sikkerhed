@@ -9,8 +9,8 @@ if (isset($_POST['submit'])) {
 	$nombre = $_POST['nombre'];
 	$correo = $_POST['correo'];
 	$mensaje = $_POST['mensaje'];
-	$pyme = $_POST['pyme'];
-	$servicio = $_POST['servicio'];
+	$Telefono = $_POST['Telefono'];
+	$Ciudad = $_POST['Ciudad'];
 
 	if (!empty($nombre)) {
 		$nombre = trim($nombre);
@@ -29,16 +29,16 @@ if (isset($_POST['submit'])) {
 		$errores .= 'Por favor ingresa un correo <br />';
 	}
 
-	if(!empty($pyme)){
-		$pyme = trim($pyme);
-		$pyme = filter_var($pyme, FILTER_SANITIZE_STRING);
+	if(!empty($Telefono)){
+		$Telefono = trim($Telefono);
+		$Telefono = filter_var($Telefono, FILTER_SANITIZE_STRING);
 	}else{
 		$errores .= 'Por favor ingresa una PYME o Institución valida';
 	}
 
-	if(!empty($servicio)){
-		$servicio = trim($servicio);
-		$servicio = filter_var($servicio, FILTER_SANITIZE_STRING);
+	if(!empty($Ciudad)){
+		$Ciudad = trim($Ciudad);
+		$Ciudad = filter_var($Ciudad, FILTER_SANITIZE_STRING);
 	}else{
 		$errores .= 'Por favor ingresa un servicio valido';
 	}
@@ -52,12 +52,12 @@ if (isset($_POST['submit'])) {
 	}
 
 	if(!$errores){
-		$enviar_a = 'contacto@coddistudio.com';
-		$asunto = 'Correo enviado desde coddistudio.com';
+		$enviar_a = 'contacto@sikkerhed.com.mx';
+		$asunto = 'Correo enviado desde sikkerhed.com.mx';
 		$mensaje_preparado = "De: $nombre \n";
 		$mensaje_preparado .= "Correo: $correo \n";
-		$mensaje_preparado .= "PYME: $pyme \n";
-		$mensaje_preparado .= "Servicio: $servicio \n";
+		$mensaje_preparado .= "Telefono: $Telefono \n";
+		$mensaje_preparado .= "Ciudad: $Ciudad \n";
 		$mensaje_preparado .= "Mensaje: " . $mensaje;
 
 		mail($enviar_a, $asunto, $mensaje_preparado);
@@ -69,7 +69,7 @@ if (isset($_POST['submit'])) {
 
 
 	require 'views/contacto.view.php';
-	
+
 /*else {
 	header('Location: isndex.php');
 }*/

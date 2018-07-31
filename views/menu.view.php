@@ -14,10 +14,10 @@
 					<li> <a href="nosotros.php">&nbsp; NOSOTROS &nbsp;</a></li>
 					<li><a href="puertas.php">&nbsp; PUERTAS &nbsp;</a></li>
 					<li><a href="contacto.php">&nbsp; CONTACTO &nbsp;</a></li>
-					<li><a href="https://www.facebook.com/Sikkerhed-1603509843048280/" target="_blank"></a></li>
+					<li class="last"><a href="https://www.facebook.com/Sikkerhed-1603509843048280/" target="_blank"></a></li>
 				</ul>
 			</div>
 		</div>
-		<hr class="bordermenu hidden-xs">
+
 	</nav>
 </header>

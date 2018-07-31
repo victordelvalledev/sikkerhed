@@ -19,7 +19,9 @@ header nav ul li {
 	top:11px;
 	border-radius: 0px 0px 20px 20px;
 }
-
+header nav ul li.last {
+	padding-left: 400px !important;
+}
 header nav ul li:hover {
 	background:#720F11;/*celeste*/
 	text-decoration:none;
@@ -30,7 +32,7 @@ header nav ul li:hover {
 	background-color: #720f11;
  /*	background: transparent;
   border-color: transparent;*/
-	margin-right:15%;
+	/*margin-right:50%;*/
 	position:relative;
 }
 
@@ -46,15 +48,18 @@ header nav ul li:hover {
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #fff;
+    color: #720f11;
+		background:#fff;
+		border-radius: 5px 5px 5px 5px;
+		top:-4px;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-	background:#720f11;
-	color:#fff;
+	background:#fff;
+	color:#720f11;
 	text-decoration:none;
-	border-radius: 0px 0px 20px 20px;
+	border-radius: 5px 5px 5px 5px;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,

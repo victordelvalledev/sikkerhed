@@ -11,8 +11,8 @@ form {
 	font-weight: bold;
 	overflow: hidden;
 	box-shadow: 0 0 3px grey;
-	border-top:4px solid #009;
-	color:#009;
+	border-top:4px solid #720F11;
+	color:#720F11;
 }
 
 form input[type="text"],
@@ -183,10 +183,11 @@ form textarea {
 .btn,
 form input[type="submit"]{
 	padding: 15px;
-	background: #009;
-	color:#E1E9FA;
+	background: #a9a9ab;
+	color:#545454;
 	font-size: 1em;
 	font-family: 'Myriad', sans-serif;
+	font-weight: bold;
 	border-radius: 2px;
 	border:none;
 	float: right;
@@ -194,5 +195,6 @@ form input[type="submit"]{
 }
 
 form input[type="submit"]:hover{
-	background: #E64A19;
+	background: #720F11;
+	color:#E1E9FA;
 }

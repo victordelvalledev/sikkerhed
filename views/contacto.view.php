@@ -9,7 +9,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-sm-12">
-			<h1 class="titulo">Contáctanos</h1>
+			<h1 class="titulo">Contacto</h1>
 		</div>
 	</div>
 	<div class="contenedor col-sm-12">
@@ -46,9 +46,10 @@
 		</div>
 	</div>
 	<div class="row contenedor">
-		<div class="col-sm-6">
+		<div class="col-sm-12 ">
 		<div class="contenido wrap">
 			<form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
+				<div class="col-sm-6 ">
 				<br>
 				Nombre
 				<input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre:" value="<?php if(!$enviado && isset($nombre)) echo $nombre ?>">
@@ -59,12 +60,15 @@
 				Telefono
 				<input type="text" class="form-control" id="Telefono" name="Telefono" placeholder="Telefono:" value="<?php if(!$enviado && isset($Telefono)) echo $Telefono ?>">
 				<br>
+			</div>
+			<div class="col-sm-6 ">
+				<br>
 				Ciudad
 				<input type="text" class="form-control" id="Ciudad" name="Ciudad" placeholder="Ciudad:" value="<?php if(!$enviado && isset($Ciudad)) echo $Ciudad ?>">
 				<br>
 				Comentario
 				<textarea name="mensaje" class="form-control" id="mensaje" placeholder="Comentario:"><?php if(!$enviado && isset($mensaje)) echo $mensaje ?></textarea>
-
+			</div>
 				<?php if (!empty($errores)): ?>
 					<div class="alert error">
 						<?php echo $errores; ?>
@@ -74,7 +78,7 @@
 						<p>Enviado Correctamente</p>
 					</div>
 				<?php endif ?>
-				<input type="submit" name="submit" class="btn btn-primary" value="Enviar ">
+				<input type="submit" name="submit" class="btn btn-default" value="Enviar">
 			</form>
 		</div>
 	</div>

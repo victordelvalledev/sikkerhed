@@ -22,15 +22,26 @@ body {
 	padding-bottom:2.5%;
 	font-weight: bold;
 }
+.PuertaInicio{
+	background-color:#720F11;
+	border-color:#720F11;
+  margin:0.5%;
+	padding: 0.5%;
+}
 .titulo {
 	font-weight: 300;
 	color:#ffffff;/*;27348A;*/
 	background-color:#720F11;
 	text-align: left;
-	border-radius: 25px 25px 0px 0px;
+	border-radius: 20px 20px 20px 20px;
 	padding:15px;
-  opacity: 0.7;
+  /*opacity: 0.7;*/
 	font-size: 2em;
+	font-weight: bold;
+}
+.LeyendaInicio{
+	color:#720F11;
+	text-align: center;
 	font-weight: bold;
 }
 .parrafo{
@@ -86,7 +97,7 @@ footer {
 	top:250px;
 }
 
-footer hr.border {
+/*footer hr.border {
 	width:100%;
 	height:4px;
 	border:none;
@@ -107,7 +118,7 @@ footer hr.border#fhr2 {
 	margin-left:0%;
 	top: -10px;
 	position:relative;
-}
+}*/
 footer p{
 	text-align: right;
 	font-size: 14px;

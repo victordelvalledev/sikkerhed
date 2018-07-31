@@ -1,6 +1,4 @@
 	<footer>
-		<hr class="border" id="fhr1">
-		<hr class="border" id="fhr2">
 		<p class="copyright">Copyright © 2018 - 2019&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>
 		</p>
 	</footer>

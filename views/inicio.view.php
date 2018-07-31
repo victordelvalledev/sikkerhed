@@ -6,7 +6,15 @@
 <?php include 'menu.view.php'; ?>
 
 	<div class="container">
-		<img src="imagenes/inicio/descripcion_de_puertas.png" title="SIKKERHED" alt="SIKKERHED" id="portada" class="img-responsive center-block" />
-	</div>
+		<img src="imagenes/inicio/portada.png" title="SIKKERHED" alt="SIKKERHED" id="portada" class="img-responsive center-block" />
+		<div class="PuertaInicio">
+			<img src="imagenes/inicio/descripcion_de_puertas.png" title="SIKKERHED" alt="SIKKERHED" id="portada" class="img-responsive center-block" />
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="LeyendaInicio">Puertas de alta</h1>
+				<h2 class="LeyendaInicio">Seguridad para tu Hogar</h2>
+			</div>
+		</div>
 
-<?php include 'footer.view.php'; ?>
+	</div>
